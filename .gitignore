@@ -1,0 +1,15 @@
+# Binaires et objets
+main
+*.o
+*.wo
+a.out
+*.dSYM/
+tests/test_thompson
+# Sortie web (générée par `make web`)
+web/
+# Bibliothèques et en-têtes tiers (raylib compilé pour le web, glad, GLFW)
+emscripten/libraylib.a
+emscripten/include/
+# Configuration d'éditeur
+.ycm_extra_conf.py
+.DS_Store
